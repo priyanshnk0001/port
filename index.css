@@ -421,3 +421,47 @@ border-color: white;
 
 
 }
+
+
+
+
+
+
+
+@media (max-width:400px) {
+
+    .swervocont{
+        margin-top: 600px;
+    }
+    .woobotext{
+        height: 300px;
+    }
+
+    .swervotext{
+        height: 370px;
+        padding-top: 25px;
+    
+    }
+
+    .bchild{
+        height: auto;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+      
+     
+      
+
+    }
+    .ba{
+        width: 80px;
+        margin-bottom: 10px;
+
+    }
+
+    .bottomc{
+        margin-top: 700px;
+    }
+
+}
