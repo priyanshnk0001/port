@@ -179,3 +179,33 @@
   border-color: white;
   }
   
+
+
+
+
+
+
+  @media (max-width:400px) {
+
+    .aboutonep{
+       font-size: 17px;
+       line-height: 17px;
+    }
+
+    .bchild{
+        height: auto;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+      
+     
+      
+
+    }
+    .ba{
+        width: 80px;
+        margin-bottom: 10px;
+
+    }
+  }
