@@ -1,0 +1,423 @@
+body{
+    margin: 0;
+  
+}
+
+.uperoption-cont{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 30px;
+   
+   
+
+}
+
+.portfolio-cont{
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+   
+}
+
+.about{
+    font-weight: bolder;
+
+}
+.name{
+    align-self: center;
+}
+
+.upper-a{
+    text-decoration: none;
+    color: black;
+
+}
+
+@media (max-width: 800px) {
+    .name {
+      display: none;
+     
+    }
+    .portfolio-cont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+
+
+
+
+  .grandparent{
+      
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 100px;
+  }
+
+  .heading{
+      font-size: 50px;
+      font-weight: lighter;
+  }
+
+  .naresh{
+      color: brown;
+  }
+
+  .headingp{
+      font-size: 24px;
+      
+      line-height: 40px;
+   
+  }
+
+  .education{
+      color: brown;
+      font-weight: bolder;
+
+  }
+
+  @media (max-width: 800px) {
+
+    .heading{
+        font-size: 30px;
+    }
+    .headingp{
+        font-size: 20px;
+        line-height: 25px;
+    }
+  }
+
+
+  .swcont{
+      width: 100%;
+      margin-top: 100px;
+  }
+
+  .swork{
+      text-align: center;
+      
+      letter-spacing: 5px;
+      font-family: sans-serif;
+      font-weight: lighter;
+  }
+
+
+  .woobocont{
+    background-color: #DEE7F0;
+      height: 400px;
+      display: flex;
+      margin-top: 50px;
+      justify-content: flex-end;
+  }
+
+  .woobocont:hover{
+    transform: scale(1.03); 
+
+}
+  
+
+  .woobotext{
+ 
+      width: 50%;
+      
+
+  }
+
+  .wooboimgcont{
+      width: 40%;
+      height: 80%;
+      align-self: center;
+      margin-left: 5%;
+     
+  }
+
+  .wooboimg{
+      width: 100%;
+      height: 100%;
+  }
+
+  .wooboheading{
+      margin-top: 25px;
+  }
+
+  .woobopera{
+      font-size: 30px;
+      font-weight: lighter;
+      margin-top: 50px;
+  }
+
+  .ux{
+     font-weight: bold;
+     margin-top: 50px;
+  }
+
+  .checkit{
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 0px;
+  }
+
+  @media (max-width: 900px) {
+
+    .woobocont{
+        width: 100%;
+        display: block;
+    }
+
+    .woobocont:hover{
+        transform: scale(1.03); 
+    }
+
+    .woobotext{
+        width: 80%;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        padding-top: 50px;
+       
+
+
+    }
+
+    .woobopera{
+        font-size: 16px;
+        margin-top: 25px;
+        
+    }
+
+    .ux{
+        width: 100%;
+       
+        margin-top: 25px;
+       
+    }
+
+    .checkit{
+        margin-top: 25px;
+    }
+
+    .wooboimgcont{
+        width: 100%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .swervocont{
+    background-color: #F4EADF;
+      height: 400px;
+      display: flex;
+      margin-top: 50px;
+      justify-content: flex-end;
+      clear: both;
+  }
+
+  .swervocont:hover{
+    transform: scale(1.03); 
+  }
+
+  .swervotext{
+ 
+      width: 50%;
+      
+
+  }
+
+  .swervoimgcont{
+      width: 40%;
+      height: 80%;
+      align-self: center;
+      margin-left: 5%;
+     
+  }
+
+  .swervoimg{
+      width: 100%;
+      height: 100%;
+  }
+
+  .swervoheading{
+      margin-top: 25px;
+  }
+
+  .swervopera{
+      font-size: 30px;
+      font-weight: lighter;
+      margin-top: 50px;
+  }
+
+  .ux{
+     font-weight: bold;
+     margin-top: 50px;
+  }
+
+  .checkit{
+      font-weight: bold;
+      margin-top: 50px;
+      margin-bottom: 0px;
+  }
+
+  @media (max-width: 900px) {
+
+    .swervocont{
+        width: 100%;
+        display: block;
+        margin-top: 550px;
+    }
+
+    .swervocont:hover{
+        transform: scale(1.03); 
+    }
+
+    .swervotext{
+        width: 80%;
+        height: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 0px;
+       
+       
+
+
+    }
+
+    .swervopera{
+        font-size: 16px;
+        margin-top: 25px;
+        
+    }
+
+    .ux{
+        width: 100%;
+       
+        margin-top: 25px;
+       
+    }
+
+    .checkit{
+        margin-top: 25px;
+    }
+
+    .swervoimgcont{
+        width: 100%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .bottomc{
+    background-color: black;
+   color: white;
+   margin-top: 100px;
+}
+
+.bottom{
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.bottomoption{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.bchild{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+
+
+
+.ba{
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: Arial;
+  color: #ababab;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ababab 2px;
+  text-decoration: none;
+}
+
+.ba:hover {
+color: white;
+border-color: white;
+}
+
+@media (max-width:900px) {
+    .bottomc{
+        margin-top: 600px;
+    }
+
+
+
+
+
+
+
+
+}

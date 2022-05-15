@@ -1,0 +1,181 @@
+.uperoption-cont{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 30px;
+ 
+   
+   
+
+}
+
+.portfolio-cont{
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+   
+}
+
+.about{
+    font-weight: bolder;
+
+}
+.name{
+    align-self: center;
+}
+
+.upper-a{
+    text-decoration: none;
+    color: black;
+
+}
+
+@media (max-width: 800px) {
+    .name {
+      display: none;
+     
+    }
+    .portfolio-cont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+
+
+
+
+  .grandparent{
+  
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 100px;
+  }
+
+  .first{
+     
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: space-between;
+     
+  }
+
+  .imgone{
+     
+      width: 47%;
+      height: 700px;
+      position: relative;
+
+  }
+
+  img{
+    
+      width: 100%;
+      height: 100%;
+  }
+
+
+  .one{
+      position: absolute;
+      opacity: 0;
+      transition: .7s ease;
+  }
+
+  .one:hover{
+      opacity: 1;
+  }
+
+ 
+
+
+
+
+  
+
+
+  .aboutone{
+      width: 47%;
+      padding: 10px;
+      
+  }
+
+  .aboutonep{
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  H3{
+      letter-spacing: 3px;
+  }
+
+
+  .thanks{
+      display: flex;
+      width: 100%;
+      height: 100px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+  .thanksheading{
+      align-self: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .bottomc{
+      background-color: black;
+     color: white;
+  }
+
+  .bottom{
+      width: 80%;
+      margin-left: 10%;
+      padding: 10px;
+      font-size: 20px;
+  }
+
+  .bottomoption{
+      width: 100%;
+      margin-bottom: 40px;
+  }
+
+  .bchild{
+      display: flex;
+      width: 350px;
+      justify-content: space-between;
+  }
+
+  body{
+      margin: 0;
+  }
+
+
+
+  .ba{
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #000000);
+    background-image: -moz-linear-gradient(top, #000000, #000000);
+    background-image: -ms-linear-gradient(top, #000000, #000000);
+    background-image: -o-linear-gradient(top, #000000, #000000);
+    background-image: linear-gradient(to bottom, #000000, #000000);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Arial;
+    color: #ababab;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border: solid #ababab 2px;
+    text-decoration: none;
+  }
+  
+  .ba:hover {
+  color: white;
+  border-color: white;
+  }
+  
